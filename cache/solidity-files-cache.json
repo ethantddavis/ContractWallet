@@ -1,0 +1,496 @@
+{
+  "_format": "ethers-rs-sol-cache-3",
+  "paths": {
+    "artifacts": "out",
+    "sources": "src",
+    "tests": "test",
+    "libraries": [
+      "lib"
+    ]
+  },
+  "files": {
+    "C:\\Users\\Ethan Davis\\Documents\\Files\\defiWizardry\\ContractWallet\\lib\\forge-std\\lib\\ds-test\\src/test.sol": {
+      "lastModificationDate": 1651631154631,
+      "contentHash": "2c9806925f5d78ba4f4fb0570611cca3",
+      "sourceName": "lib\\forge-std\\lib\\ds-test\\src/test.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.5.0",
+      "artifacts": {
+        "DSTest": {
+          "0.8.13+commit.abaa5c0e.Windows.msvc": "test.sol\\DSTest.json"
+        }
+      }
+    },
+    "C:\\Users\\Ethan Davis\\Documents\\Files\\defiWizardry\\ContractWallet\\lib\\forge-std\\src/Test.sol": {
+      "lastModificationDate": 1651631151830,
+      "contentHash": "b6914a4a10e50f217544e8e95ca2c65f",
+      "sourceName": "lib\\forge-std\\src/Test.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib\\forge-std\\lib\\ds-test\\src/test.sol",
+        "lib\\forge-std\\src\\Vm.sol",
+        "lib\\forge-std\\src\\console.sol",
+        "lib\\forge-std\\src\\console2.sol"
+      ],
+      "versionRequirement": ">=0.6.0, <0.9.0",
+      "artifacts": {
+        "Test": {
+          "0.8.13+commit.abaa5c0e.Windows.msvc": "Test.sol\\Test.json"
+        },
+        "stdError": {
+          "0.8.13+commit.abaa5c0e.Windows.msvc": "Test.sol\\stdError.json"
+        },
+        "stdMath": {
+          "0.8.13+commit.abaa5c0e.Windows.msvc": "Test.sol\\stdMath.json"
+        },
+        "stdStorage": {
+          "0.8.13+commit.abaa5c0e.Windows.msvc": "Test.sol\\stdStorage.json"
+        }
+      }
+    },
+    "C:\\Users\\Ethan Davis\\Documents\\Files\\defiWizardry\\ContractWallet\\lib\\forge-std\\src\\Vm.sol": {
+      "lastModificationDate": 1651631151831,
+      "contentHash": "a22fa01e11b459780d75741f9831bf77",
+      "sourceName": "lib\\forge-std\\src\\Vm.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.6.0",
+      "artifacts": {
+        "Vm": {
+          "0.8.13+commit.abaa5c0e.Windows.msvc": "Vm.sol\\Vm.json"
+        }
+      }
+    },
+    "C:\\Users\\Ethan Davis\\Documents\\Files\\defiWizardry\\ContractWallet\\lib\\forge-std\\src\\console.sol": {
+      "lastModificationDate": 1651631151833,
+      "contentHash": "c8cf989d04bc2e3069e3d91facf3b69c",
+      "sourceName": "lib\\forge-std\\src\\console.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.4.22, <0.9.0",
+      "artifacts": {
+        "console": {
+          "0.8.13+commit.abaa5c0e.Windows.msvc": "console.sol\\console.json"
+        }
+      }
+    },
+    "C:\\Users\\Ethan Davis\\Documents\\Files\\defiWizardry\\ContractWallet\\lib\\forge-std\\src\\console2.sol": {
+      "lastModificationDate": 1651631151834,
+      "contentHash": "84e14285f3171a14073d0f81363094ac",
+      "sourceName": "lib\\forge-std\\src\\console2.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.4.22, <0.9.0",
+      "artifacts": {
+        "console2": {
+          "0.8.13+commit.abaa5c0e.Windows.msvc": "console2.sol\\console2.json"
+        }
+      }
+    },
+    "C:\\Users\\Ethan Davis\\Documents\\Files\\defiWizardry\\ContractWallet\\lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol": {
+      "lastModificationDate": 1651631333439,
+      "contentHash": "243fcbae5e13f6a21554a7a0c0de81b6",
+      "sourceName": "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol",
+        "lib\\openzeppelin-contracts\\contracts\\token\\ERC20\\extensions\\IERC20Metadata.sol",
+        "lib\\openzeppelin-contracts\\contracts\\utils\\Context.sol"
+      ],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "ERC20": {
+          "0.8.13+commit.abaa5c0e.Windows.msvc": "ERC20.sol\\ERC20.json"
+        }
+      }
+    },
+    "C:\\Users\\Ethan Davis\\Documents\\Files\\defiWizardry\\ContractWallet\\lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol": {
+      "lastModificationDate": 1651631333439,
+      "contentHash": "da337b36f786d26e7e0826fa874f8d27",
+      "sourceName": "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "IERC20": {
+          "0.8.13+commit.abaa5c0e.Windows.msvc": "IERC20.sol\\IERC20.json"
+        }
+      }
+    },
+    "C:\\Users\\Ethan Davis\\Documents\\Files\\defiWizardry\\ContractWallet\\lib\\openzeppelin-contracts\\contracts\\token\\ERC20\\extensions\\IERC20Metadata.sol": {
+      "lastModificationDate": 1651631333449,
+      "contentHash": "7e3e6992395030ccb281dc67c1a8ae2f",
+      "sourceName": "lib\\openzeppelin-contracts\\contracts\\token\\ERC20\\extensions\\IERC20Metadata.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol"
+      ],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "IERC20Metadata": {
+          "0.8.13+commit.abaa5c0e.Windows.msvc": "IERC20Metadata.sol\\IERC20Metadata.json"
+        }
+      }
+    },
+    "C:\\Users\\Ethan Davis\\Documents\\Files\\defiWizardry\\ContractWallet\\lib\\openzeppelin-contracts\\contracts\\utils\\Context.sol": {
+      "lastModificationDate": 1651631333485,
+      "contentHash": "e7f98c33ad1d39d8a6661bf0804fae36",
+      "sourceName": "lib\\openzeppelin-contracts\\contracts\\utils\\Context.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "Context": {
+          "0.8.13+commit.abaa5c0e.Windows.msvc": "Context.sol\\Context.json"
+        }
+      }
+    },
+    "C:\\Users\\Ethan Davis\\Documents\\Files\\defiWizardry\\ContractWallet\\src\\Bank.sol": {
+      "lastModificationDate": 1651715656307,
+      "contentHash": "1cd3ae88fdf1e811a972e0c742a16b72",
+      "sourceName": "src\\Bank.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol"
+      ],
+      "versionRequirement": "^0.8.13",
+      "artifacts": {
+        "Bank": {
+          "0.8.13+commit.abaa5c0e.Windows.msvc": "Bank.sol\\Bank.json"
+        }
+      }
+    },
+    "C:\\Users\\Ethan Davis\\Documents\\Files\\defiWizardry\\ContractWallet\\test\\Bank.t.sol": {
+      "lastModificationDate": 1651720765926,
+      "contentHash": "958f2b28339c3a3f5ab41201de8459d7",
+      "sourceName": "test\\Bank.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib\\forge-std\\lib\\ds-test\\src/test.sol",
+        "lib\\forge-std\\src/Test.sol",
+        "lib\\forge-std\\src\\Vm.sol",
+        "lib\\forge-std\\src\\console.sol",
+        "lib\\forge-std\\src\\console2.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol",
+        "lib\\openzeppelin-contracts\\contracts\\token\\ERC20\\extensions\\IERC20Metadata.sol",
+        "lib\\openzeppelin-contracts\\contracts\\utils\\Context.sol",
+        "src\\Bank.sol",
+        "test\\mocks\\MockToken.sol"
+      ],
+      "versionRequirement": "^0.8.13",
+      "artifacts": {
+        "BankTest": {
+          "0.8.13+commit.abaa5c0e.Windows.msvc": "Bank.t.sol\\BankTest.json"
+        }
+      }
+    },
+    "C:\\Users\\Ethan Davis\\Documents\\Files\\defiWizardry\\ContractWallet\\test\\mocks\\MockToken.sol": {
+      "lastModificationDate": 1651631868649,
+      "contentHash": "1f8dae34b2ed19d9544f0d1e80eab7e9",
+      "sourceName": "test\\mocks\\MockToken.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol",
+        "lib\\openzeppelin-contracts\\contracts\\token\\ERC20\\extensions\\IERC20Metadata.sol",
+        "lib\\openzeppelin-contracts\\contracts\\utils\\Context.sol"
+      ],
+      "versionRequirement": "=0.8.13",
+      "artifacts": {
+        "MockToken": {
+          "0.8.13+commit.abaa5c0e.Windows.msvc": "MockToken.sol\\MockToken.json"
+        }
+      }
+    }
+  }
+}
