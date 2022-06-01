@@ -111,4 +111,9 @@ contract Bank is Swap, PriceFeed {
         return sum;
     }
 
+    function swap(address tokenToSell, address tokenToBuy, uint256 amountToSell) external {
+        //IERC20(wethAddress()).approve(address(bank), amount);
+        uint256 amountRecieved = _swap(tokenToSell, tokenToBuy, amountToSell);
+    }
+
 } 

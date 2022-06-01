@@ -40,11 +40,7 @@
       },
       "imports": [],
       "versionRequirement": "^0.8.0",
-      "artifacts": {
-        "AggregatorV3Interface": {
-          "0.8.13+commit.abaa5c0e.Windows.msvc": "AggregatorV3Interface.sol\\AggregatorV3Interface.json"
-        }
-      }
+      "artifacts": {}
     },
     "C:\\Users\\Ethan Davis\\Documents\\Files\\defiWizardry\\ContractWallet\\lib\\forge-std\\lib\\ds-test\\src/test.sol": {
       "lastModificationDate": 1651631154631,
@@ -385,11 +381,7 @@
       },
       "imports": [],
       "versionRequirement": ">=0.5.0",
-      "artifacts": {
-        "IUniswapV3SwapCallback": {
-          "0.8.13+commit.abaa5c0e.Windows.msvc": "IUniswapV3SwapCallback.sol\\IUniswapV3SwapCallback.json"
-        }
-      }
+      "artifacts": {}
     },
     "C:\\Users\\Ethan Davis\\Documents\\Files\\defiWizardry\\ContractWallet\\lib/v3-periphery/contracts/interfaces/ISwapRouter.sol": {
       "lastModificationDate": 1651944160661,
@@ -424,15 +416,11 @@
         "lib/v3-core/contracts/interfaces/callback/IUniswapV3SwapCallback.sol"
       ],
       "versionRequirement": ">=0.7.5",
-      "artifacts": {
-        "ISwapRouter": {
-          "0.8.13+commit.abaa5c0e.Windows.msvc": "ISwapRouter.sol\\ISwapRouter.json"
-        }
-      }
+      "artifacts": {}
     },
     "C:\\Users\\Ethan Davis\\Documents\\Files\\defiWizardry\\ContractWallet\\src\\Bank.sol": {
-      "lastModificationDate": 1652061028769,
-      "contentHash": "17138e304cd834da2e478c4f281a198c",
+      "lastModificationDate": 1654045525171,
+      "contentHash": "46c152762f35d287f174efee978c7656",
       "sourceName": "src\\Bank.sol",
       "solcConfig": {
         "settings": {
@@ -468,15 +456,11 @@
         "src\\Swap.sol"
       ],
       "versionRequirement": "^0.8.13",
-      "artifacts": {
-        "Bank": {
-          "0.8.13+commit.abaa5c0e.Windows.msvc": "Bank.sol\\Bank.json"
-        }
-      }
+      "artifacts": {}
     },
     "C:\\Users\\Ethan Davis\\Documents\\Files\\defiWizardry\\ContractWallet\\src\\PriceFeed.sol": {
-      "lastModificationDate": 1652061231579,
-      "contentHash": "aea489281f329b08ec2d5074ca3c5ad6",
+      "lastModificationDate": 1653436019124,
+      "contentHash": "9992213771d81b57f7ad1948ec32171c",
       "sourceName": "src\\PriceFeed.sol",
       "solcConfig": {
         "settings": {
@@ -511,15 +495,11 @@
         "src\\Swap.sol"
       ],
       "versionRequirement": "^0.8.13",
-      "artifacts": {
-        "PriceFeed": {
-          "0.8.13+commit.abaa5c0e.Windows.msvc": "PriceFeed.sol\\PriceFeed.json"
-        }
-      }
+      "artifacts": {}
     },
     "C:\\Users\\Ethan Davis\\Documents\\Files\\defiWizardry\\ContractWallet\\src\\Swap.sol": {
-      "lastModificationDate": 1652061135437,
-      "contentHash": "3462ad53f73dba98d5e5c57f3105b26a",
+      "lastModificationDate": 1653444448336,
+      "contentHash": "2ac7e517b01b2055a9f4b1aeba6048ce",
       "sourceName": "src\\Swap.sol",
       "solcConfig": {
         "settings": {
@@ -552,18 +532,11 @@
         "lib/v3-periphery/contracts/interfaces/ISwapRouter.sol"
       ],
       "versionRequirement": "^0.8.13",
-      "artifacts": {
-        "Swap": {
-          "0.8.13+commit.abaa5c0e.Windows.msvc": "Swap.sol\\Swap.json"
-        },
-        "wETH": {
-          "0.8.13+commit.abaa5c0e.Windows.msvc": "Swap.sol\\wETH.json"
-        }
-      }
+      "artifacts": {}
     },
     "C:\\Users\\Ethan Davis\\Documents\\Files\\defiWizardry\\ContractWallet\\test\\Bank.t.sol": {
-      "lastModificationDate": 1652062070999,
-      "contentHash": "72486af414b3158a3c750ebfef188b31",
+      "lastModificationDate": 1653443096696,
+      "contentHash": "4af84b10b6670eb9d8e37ea2a18cfb32",
       "sourceName": "test\\Bank.t.sol",
       "solcConfig": {
         "settings": {
@@ -609,64 +582,7 @@
         "test\\mocks\\MockToken.sol"
       ],
       "versionRequirement": "^0.8.13",
-      "artifacts": {
-        "BankTest": {
-          "0.8.13+commit.abaa5c0e.Windows.msvc": "Bank.t.sol\\BankTest.json"
-        }
-      }
-    },
-    "C:\\Users\\Ethan Davis\\Documents\\Files\\defiWizardry\\ContractWallet\\test\\PriceFeed.t.sol": {
-      "lastModificationDate": 1652060864319,
-      "contentHash": "2eff27f4c746b4d881eafad3f8aaf4dc",
-      "sourceName": "test\\PriceFeed.t.sol",
-      "solcConfig": {
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "metadata": {
-            "bytecodeHash": "ipfs"
-          },
-          "outputSelection": {
-            "*": {
-              "": [
-                "ast"
-              ],
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers"
-              ]
-            }
-          },
-          "evmVersion": "london"
-        }
-      },
-      "imports": [
-        "lib/chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol",
-        "lib\\forge-std\\lib\\ds-test\\src/test.sol",
-        "lib\\forge-std\\src/Test.sol",
-        "lib\\forge-std\\src\\Vm.sol",
-        "lib\\forge-std\\src\\console.sol",
-        "lib\\forge-std\\src\\console2.sol",
-        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
-        "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol",
-        "lib\\openzeppelin-contracts\\contracts\\token\\ERC20\\extensions\\IERC20Metadata.sol",
-        "lib\\openzeppelin-contracts\\contracts\\utils\\Context.sol",
-        "lib/v3-core/contracts/interfaces/callback/IUniswapV3SwapCallback.sol",
-        "lib/v3-periphery/contracts/interfaces/ISwapRouter.sol",
-        "src\\PriceFeed.sol",
-        "src\\Swap.sol",
-        "test\\mocks\\MockToken.sol"
-      ],
-      "versionRequirement": "^0.8.13",
-      "artifacts": {
-        "BankTest": {
-          "0.8.13+commit.abaa5c0e.Windows.msvc": "PriceFeed.t.sol\\BankTest.json"
-        }
-      }
+      "artifacts": {}
     },
     "C:\\Users\\Ethan Davis\\Documents\\Files\\defiWizardry\\ContractWallet\\test\\mocks\\MockToken.sol": {
       "lastModificationDate": 1651631868649,
@@ -704,39 +620,6 @@
         "lib\\openzeppelin-contracts\\contracts\\utils\\Context.sol"
       ],
       "versionRequirement": "=0.8.13",
-      "artifacts": {}
-    },
-    "C:\\Users\\Ethan Davis\\Documents\\Files\\defiWizardry\\ContractWallet\\test\\unused\\Swap.t.sol": {
-      "lastModificationDate": 1651954524300,
-      "contentHash": "78209a04771cdbd2b1f9fc1e37928694",
-      "sourceName": "test\\unused\\Swap.t.sol",
-      "solcConfig": {
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "metadata": {
-            "bytecodeHash": "ipfs"
-          },
-          "outputSelection": {
-            "*": {
-              "": [
-                "ast"
-              ],
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers"
-              ]
-            }
-          },
-          "evmVersion": "london"
-        }
-      },
-      "imports": [],
-      "versionRequirement": null,
       "artifacts": {}
     }
   }

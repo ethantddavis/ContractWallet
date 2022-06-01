@@ -10,6 +10,10 @@ contract BankTest is Test {
     Bank public bank;
     MockToken public mockToken;
 
+    address private constant WBTC = 0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599;
+    address private constant USDC = 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48;
+    address private constant DAI = 0x6B175474E89094C44Da98b954EedeAC495271d0F;
+
     receive() external payable {}
 
     function setUp() public {
@@ -171,6 +175,14 @@ contract BankTest is Test {
         bank.unwrapEth(amount);
     }
 
+    function testEthUsd() public {
+
+        // test
+        int price = bank.getPrice(address(0));
+
+        emit log_int(price);
+    }
+
     function testSumBalances(uint16 amount) public {
         // before 
         address[] memory tokens = new address[](3);
@@ -186,8 +198,19 @@ contract BankTest is Test {
         uint256 sum = bank.sumBalances(address(this), tokens);
 
         // check
-        uint256 lowerBound = amount + 2000e18;
+        uint256 lowerBound = amount + 1500e18;
         uint256 upperBound = amount + 3000e18;
         assertTrue(sum > lowerBound && sum < upperBound);
+    }
+
+    function testSwap() public {
+        // before
+        uint256 amount = 1e18;
+        bank.deposit{value: 10e18}(10e18);
+        bank.wrapEth(amount);
+        //IERC20(bank.wethAddress()).approve(address(bank), amount);
+
+        // test 
+        bank.swap(bank.wethAddress(), USDC, amount);
     }
 }
